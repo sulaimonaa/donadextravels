@@ -1,0 +1,295 @@
+body {
+  background: rgb(250, 250, 250);
+}
+
+/*header styling*/
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+}
+
+.add-background {
+  background: rgba(64, 64, 64, 0.5);
+}
+
+.navbar {
+  top: 20px;
+}
+
+.navbar-brand {
+  width: 150px;
+}
+
+.navbar-brand img {
+  width: 100%;
+}
+
+.navbar-nav.mr-auto {
+  margin: 15px auto;
+}
+
+.nav-item {
+  width: 120px;
+}
+
+a.nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  text-align: center;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.active {
+  border-bottom: 1px dotted #fff;
+}
+
+.contact-info {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.contact-info h6 {
+  font-size: 0.7em;
+  margin: 0;
+  color: #fff;
+}
+
+.info-icon i.fa.icon {
+  position: absolute;
+  margin: 5px -18px;
+  font-size: 12px;
+  color: #fff;
+}
+
+.display-non {
+  display: none;
+}
+
+/*Top-banner*/
+.top-banner {
+  width: 100%;
+  height: 500px;
+  background: url(../images/bg.jpg);
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+/*Banner*/
+.banner-wrap {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.banner-wrap > .booking-engine > .ibe {
+}
+
+.flights {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.flights h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.flights-left,
+.hotels-left {
+  width: 75%;
+  float: left;
+}
+
+.flights-right,
+.hotels-right {
+  width: 25%;
+  float: right;
+}
+
+.flight-item {
+  text-align: center;
+  float: left;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  max-width: 32%;
+}
+
+.hotel-item {
+  padding: 0;
+  overflow: hidden;
+}
+
+.hotel-item > img {
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+
+.hotel-item > img:hover {
+  transform: scale(1.05);
+}
+
+.hotel-item > h6 {
+  margin: 10px;
+}
+
+.flight-item .price {
+  color: darkblue;
+  font-weight: 600;
+}
+
+.flight-item p {
+  color: red;
+  font-size: 12px;
+}
+
+.flight-item .book {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 14px;
+  height: 30px;
+  padding: 3px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+  transition: 0.6s ease-in-out;
+}
+
+.flight-item .book:hover {
+  cursor: pointer;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.flights-right .advert {
+  padding: 40px 15px;
+}
+
+.flights-right .advert img {
+  width: 100%;
+}
+
+.clearfix {
+  padding: 3em;
+}
+
+/*Footer*/
+footer {
+  clear: both;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 422px;
+  padding: 20px;
+}
+
+.layer-one-item,
+.layer-two-item {
+  float: left;
+}
+
+.layer-one-item h5,
+.layer-two-item h5 {
+  font-weight: 600;
+}
+
+.layer-one-item > ul,
+.layer-two-item > ul {
+  padding: 0 0 0 5px;
+  list-style: none;
+}
+
+.layer-one-item ul > li,
+.layer-two-item > ul > li {
+  font-size: 14px;
+  transition: 0.5s ease-in-out;
+}
+
+.layer-one-item ul > li:hover,
+.layer-two-item > ul li:hover {
+  margin: 0 0 0 5px;
+}
+
+.layer-two-item > p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.layer-two-item form .form-group {
+  margin: 0 0 5px 0;
+}
+
+.layer-two-item form {
+  margin: 0;
+}
+
+.layer-two-item form .btn-primary {
+  background: #ff4000;
+  font-size: 14px;
+  border: none;
+}
+
+.layer-two-item ul li a i.fa.foot-icon {
+  color: #000;
+}
+
+.layer-three-item {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  text-align: center;
+  clear: both;
+}
+
+.layer-three-item p {
+  color: #fff;
+  margin: 0;
+  font-size: 12px;
+}
+
+#liveBooking.modal.fade.show
+  > .modal-dialog
+  > .modal-content
+  > .modal-body
+  > iframe.liveBookingFrame {
+  width: 100%;
+  min-height: 500px;
+  scrolling: 0, 1;
+  border: none;
+}
+
+/*Other Pages -- Contact*/
+.contact-topbanner {
+  width: 100%;
+  height: 200px;
+  background: url(../images/bg.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+.contact-panel {
+  width: 100%;
+  height: 500px;
+}
+
+.contact-panel-left,
+.contact-panel-right {
+  float: left;
+}
+
+.contact-panel-right .contact-map {
+  width: 100%;
+}
+
+.contact-panel-right > .contact-map > iframe.edit {
+  width: 100% !important;
+}

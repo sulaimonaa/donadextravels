@@ -1,0 +1,86 @@
+@media (min-width: 320px) and (max-width: 420px) {
+    header {
+        height: auto !important;
+        background: rgba(64, 64, 64, 0.5);
+    }
+
+    .navbar {
+        position: relative;
+        top: 0 !important;
+    }
+
+    .nav-item {
+        width: 100% !important;
+    }
+
+    /*Flights Banner*/
+    .flights h3 {
+        font-size: 20px !important;
+    }
+
+    .flights-left,
+    .hotels-left,
+    .flights-right {
+        float: none !important;
+        width: 100% !important;
+    }
+
+    .flights-right,
+    .hotels-right {
+        float: none !important;
+    }
+
+    .flight-item {
+        float: none !important;
+        margin: 5px auto !important;
+        max-width: 90% !important;
+    }
+
+    .clearfix {
+        padding: 1em !important;
+    }
+
+    /*Footer*/
+    footer {
+        height: auto !important;
+    }
+
+    .layer-one-item,
+    .layer-two-item {
+        float: none !important;
+    }
+
+    .layer-one-item h5,
+    .layer-two-item h5 {
+        font-size: 1.2em !important;
+    }
+
+    .layer-one-item ul > li,
+    .layer-two-item > ul > li {
+        font-size: 12px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .layer-two-item form {
+        margin: 0 0 5px 0 !important;
+    }
+
+    /*Other pages -- Contact*/
+    .contact-panel {
+        height: auto !important;
+    }
+
+    .contact-panel-left,
+    .contact-panel-right {
+        float: none !important;
+    }
+
+    .contact-panel-right .contact-map {
+        width: 100% !important;
+    }
+
+    .contact-panel-right > .contact-map > iframe.edit {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
