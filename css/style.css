@@ -23,11 +23,11 @@ header {
 }
 
 .navbar-brand img {
-  width: 100%;
+  width: 40%;
 }
 
 .navbar-nav.mr-auto {
-  margin: 15px auto;
+  margin: 0;
 }
 
 .nav-item {
